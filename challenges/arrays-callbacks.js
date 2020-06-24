@@ -147,7 +147,7 @@ function multiply(a,b){
 multiply(10,16);
 
 function greeting(firstName, lastName){
-  return ` "Hello ${firstName} ${lastName}, nice to meet you!" `;
+  return ` Hello ${firstName} ${lastName}, nice to meet you! `;
 };
 greeting("Mary", "Poppins");
 
