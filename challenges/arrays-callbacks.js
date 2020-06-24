@@ -139,22 +139,22 @@ function consume(a,b,cb){
 function add(a,b){
   return a + b;
 };
-add(8,5);
+add(2,2);
 
 function multiply(a,b){
   return a * b;
 };
-multiply(9,6);
+multiply(10,16);
 
 function greeting(firstName, lastName){
   return ` "Hello ${firstName} ${lastName}, nice to meet you!" `;
 };
-greeting("James", "Jordan");
+greeting("Mary", "Poppins");
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
-// console.log(consume(2, 2, add)); // 4
-// console.log(consume(10, 16, multiply)); // 160
-// console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
+console.log(consume(2, 2, add)); // 4
+console.log(consume(10, 16, multiply)); // 160
+console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
 
 /*
 
